@@ -1,8 +1,29 @@
 aid: rivr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rivr.png
 name: RIVR
-description: 'RIVR is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  RIVR (RIVR Technologies AG, formerly Swiss-Mile) is a Swiss robotics and AI
+  company spun out of ETH Zurich that develops autonomous legged-wheeled robots
+  for doorstep delivery across parcel, grocery, and instant food/convenience
+  segments. RIVR pursues "General Physical AI" by combining large-scale
+  reinforcement learning in simulation with real-world self-supervised learning
+  from live delivery operations, owning the full stack from software to hardware
+  for reliability, safety, and cost efficiency. The company operates commercial
+  deployments with partners including Just Eat Takeaway.com, Swiss Post, Migros
+  Online, Evri, and Veho, and is backed by investors including Hongshan and
+  Bezos Expeditions. This profile is maintained as an API Evangelist network
+  company record; RIVR publishes no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/rivr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Technology
+- Robotics
+- Artificial Intelligence
+- Delivery
+- Autonomous Systems
+- Logistics
+- Physical AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/rivr-domain-security.yml
+- type: Website
+  url: https://rivr.ai
+- type: About
+  url: https://rivr.ai/about-rivr
+- type: Blog
+  url: https://rivr.ai/stories
+- type: Careers
+  url: https://jobs.lever.co/rivr
+- type: PrivacyPolicy
+  url: https://rivr.ai/rivr-privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
